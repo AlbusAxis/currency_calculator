@@ -3,6 +3,7 @@ body {
 }
 
 .card {
+    display: flex;
     background-color: #1abc9c;
     margin: auto;
     width: 50%;
@@ -12,5 +13,7 @@ body {
 .button-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
+    position: relative;
+    align-content: flex-end;
 }
